@@ -1,2 +1,2 @@
-docker build -t backend_image .
+docker build -t backend_image:1 .
 docker run -it --restart=always -d -p 3000:3000 --name backend backend_image
